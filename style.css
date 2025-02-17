@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");body.mona-sans {
+    font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F3FF;
+    height: 99vh;
+
+}
+
+.maquette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 80%;
+    width: 40%;
+}
+
+.free {
+    background-color: #fff;
+    color: #000;
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
+}
+.Pro {
+    background-color: #1F2943;
+    color: #fff;
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.top {
+    padding: 20px 15px 0 40px;
+
+}
+.bottom {
+    padding: 20px 15px 0 40px;
+}
+h1{
+    padding-top: 20px;
+}
+p{
+    margin-top: 3px;
+}
+.top p {
+    color: #1f2943a3;
+}
+.bottom p {
+    color: #ffffff99;
+}
+
+ul {
+    list-style: none;
+    margin-top: 80px;
+}
+.free ul{
+    color: #1f2943c4;
+}
+.pro ul{
+    color: #ffffffe6;
+}
+
+li {
+    margin-bottom: 10px;
+}
+i{
+    padding-right: 10px;
+}
+
+.btnn{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.btnn button {
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: #1F2943;
+    color: #fff;
+}
+
+.btn button {
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #1F2943;
+}
